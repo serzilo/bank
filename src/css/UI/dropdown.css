@@ -1,0 +1,75 @@
+@import '../vars.css';
+
+.dropdown {
+    position: relative;
+    height: 35px;
+
+    &:hover {
+        background-color: #e7e6e6;
+
+        .dropdown__selected-variant {
+            color: #828282;
+
+            &:after {
+                background: url(../../images/arrowUpGreen.png) no-repeat 0 0;
+            }
+        }
+
+        .dropdown__list {
+            display: block;
+        }
+    }
+
+    &__selected-variant {
+        height: 35px;
+        line-height: 35px;
+        color: var(--black);
+        text-transform: uppercase;
+        font-size: 14px;
+        position: relative;
+        padding: 0 27px 0 18px;
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            right: 11px;
+            top: 50%;
+            margin-top: -3px;
+            width: 9px;
+            height: 5px;
+            background: url(../../images/arrowDownGreen.png) no-repeat 0 0;
+        }
+    }
+
+    &__list {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        background-color: var(--white);
+        border: 1px solid #eff3e8;
+        z-index: 100;
+
+        &-item {
+            text-align: center;
+            height: 35px;
+            line-height: 35px;
+            border-bottom: 1px solid #eff3e8;
+            cursor: pointer;
+
+            &:last-child {
+                border-bottom: 0;
+             }
+
+            &:hover {
+                background-color: var(--green);
+                color: var(--white);
+            }
+        }
+    }
+}

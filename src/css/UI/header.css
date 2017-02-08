@@ -2,6 +2,10 @@
 
 .header {
     display: flex;
+    justify-content: space-between;
+    height: 59px;
+    align-items: flex-end;
+    padding-bottom: 3px;
 
     &__logo {
         display: block;
@@ -10,5 +14,26 @@
         width: 173px;
         height: 40px;
         background: url(../../images/logo.png) no-repeat 0 0;
+    }
+
+    &__separator {
+        width: 1px;
+        height: 35px;
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    &__description {
+        text-transform: uppercase;
+        color: var(--black);
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    &__toolbar {
+        display: flex;
     }
 }
