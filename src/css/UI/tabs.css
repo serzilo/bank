@@ -26,10 +26,9 @@
         height: 51px;
         position: relative;
         box-sizing: content-box;
-        margin: 0 4%;
-        font-weight: bold;
+        margin: 0 0 0 8%;
 
-        &:last-child {
+        .tabs__item:last-child & {
              margin-right: 0;
          }
 

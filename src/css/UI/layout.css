@@ -13,3 +13,7 @@
     display: flex;
 }
 
+.layout-content {
+    background: var(--white);
+}
+
