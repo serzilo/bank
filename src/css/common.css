@@ -4,3 +4,7 @@ body {
     font-size: 14px;
     background-color: var(--lightGrey);
 }
+
+* {
+    box-sizing: border-box;
+}

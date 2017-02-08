@@ -1,4 +1,7 @@
 @import "reset.css";
 @import "common.css";
-@import "UI/footer.css";
 @import "UI/layout.css";
+@import "UI/header.css";
+@import "UI/footer.css";
+@import "UI/tabs.css";
+@import "UI/button.css";

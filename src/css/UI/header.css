@@ -1,0 +1,14 @@
+@import '../vars.css';
+
+.header {
+    display: flex;
+
+    &__logo {
+        display: block;
+        text-decoration: none;
+        text-indent: -9999px;
+        width: 173px;
+        height: 40px;
+        background: url(../../images/logo.png) no-repeat 0 0;
+    }
+}

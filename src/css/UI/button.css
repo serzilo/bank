@@ -1,0 +1,22 @@
+@import '../vars.css';
+
+.button {
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: left;
+    height: 35px;
+    padding: 0 11px;
+    outline: none;
+
+    &_bordered {
+        border: 2px solid var(--green);
+        color: var(--green);
+        background-color: transparent;
+
+        &:hover {
+            border: 2px solid var(--green);
+            color: var(--white);
+            background-color: var(--green);
+        }
+    }
+}

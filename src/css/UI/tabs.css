@@ -1,0 +1,45 @@
+@import '../vars.css';
+
+.tabs {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: flex-end;
+
+    &__item {
+        background-color: rgba(255, 255, 255, 0.4);
+        color: #0c0c0c;
+        font-size: 14px;
+        text-align: center;
+        line-height: 51px;
+        cursor: pointer;
+        height: 51px;
+        width: 118px;
+        position: relative;
+        box-sizing: content-box;
+
+        &::before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: -4px;
+            left: 0;
+            right: 0;
+         }
+
+        &:not(&_active):hover {
+            background-color: var(--white);
+            border-top: 4px solid  var(--white);
+            color: var(--green);
+        }
+
+        &_active {
+            background-color: var(--white);
+            color: var(--black);
+            font-weight: bold;
+            border-top: 4px solid var(--green);
+            cursor: default;
+        }
+    }
+}
