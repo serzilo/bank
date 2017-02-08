@@ -32,8 +32,8 @@ var config = {
 };
 
 var opts = {
-    stylesheetPath: 'build/css',
-    spritePath: 'build/images/'
+    stylesheetPath: './build/css',
+    spritePath: './build/images/'
 };
 
 var path = {

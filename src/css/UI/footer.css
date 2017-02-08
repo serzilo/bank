@@ -39,23 +39,6 @@
         font-size: 14px;
     }
 
-    &__log {
-        &-button {
-            text-transform: uppercase;
-            background-color: #e7e6e6;
-            color: #7f7f7f;
-            font-size: 14px;
-            border-radius: 0;
-            border: none;
-            padding: 6px 11px 5px;
-
-            &:hover {
-                background-color: var(--green);
-                color: var(--white);
-            }
-        }
-    }
-
     &__line {
         display: flex;
         justify-content: space-between;

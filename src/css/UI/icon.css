@@ -1,0 +1,25 @@
+@import '../vars.css';
+
+.icon {
+    display: inline-block;
+
+    &_mail {
+        width: 20px;
+        height: 16px;
+        background: url(../../images/mailGreen.png) no-repeat 0 0;
+
+        .button:hover & {
+            background: url(../../images/mailBlack.png) no-repeat 0 0;
+        }
+    }
+
+    &_settings {
+         width: 20px;
+         height: 20px;
+         background: url(../../images/settingsGreen.png) no-repeat 0 0;
+
+        .button:hover & {
+            background: url(../../images/settingsBlack.png) no-repeat 0 0;
+        }
+    }
+}
