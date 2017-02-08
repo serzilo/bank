@@ -72,4 +72,60 @@
             }
         }
     }
+
+
+    &_main {
+         height: 46px;
+         background-color: var(--green);
+
+        &:hover {
+            background-color: var(--green);
+
+            & .dropdown__selected-variant {
+                  color: var(--white);
+
+                &::after {
+                     background: url(../../images/arrowUpWhite.png) no-repeat 0 0;
+                }
+            }
+        }
+
+        & .dropdown__selected-variant {
+            color: var(--white);
+            padding: 0 45px 0 15px;
+            height: 46px;
+            line-height: 46px;
+
+            &::after {
+                width: 14px;
+                height: 8px;
+                right: 16px;
+                margin-top: -4px;
+                background: url(../../images/arrowDownWhite.png) no-repeat 0 0;
+            }
+        }
+
+        & .dropdown__list {
+            border: 2px solid var(--green2);
+
+            &-item {
+                padding: 0 15px;
+                height: 44px;
+                line-height: 44px;
+                border-bottom: 2px solid var(--green2);
+                text-align: left;
+
+                &:last-child {
+                    border-bottom: 0;
+                }
+
+                &-static {
+                    padding: 0;
+                    background-color: var(--white) !important;
+                }
+            }
+
+        }
+
+    }
 }

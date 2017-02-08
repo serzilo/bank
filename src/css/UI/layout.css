@@ -3,3 +3,13 @@
     /*width: 1280px;*/
     width: 940px;
 }
+
+.layout-company {
+    width: 300px;
+    flex-shrink: 0;
+}
+
+.layout-line {
+    display: flex;
+}
+

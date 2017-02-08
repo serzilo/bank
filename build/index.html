@@ -8,10 +8,12 @@
     <body>
         <div class="layout">
             <header class="header">
-                <a href="#" class="header__logo" title="Bankinno">
-                    Bankinno
-                </a>
-                <button class="button button_bordered">Live chat</button>
+                <div class="header__logo-wrapper">
+                    <a href="#" class="header__logo" title="Bankinno">
+                        Bankinno
+                    </a>
+                    <button class="button button_bordered">Live chat</button>
+                </div>
                 <div class="header__toolbar">
                     <button class="button button_green-filled">
                         <span class="button__counter">5</span>
@@ -38,20 +40,38 @@
                 </div>
             </header>
 
-            <section>
-                <div style="display: none;" class="dropdown dropdown_big">
-                    <ul class="dropdown__list">
-
+            <section class="layout-line">
+                <div class="layout-company">
+                    <div class="dropdown dropdown_main">
+                        <div class="dropdown__selected-variant">Test company</div>
+                        <ul class="dropdown__list">
+                            <li class="dropdown__list-item dropdown__list-item-static">
+                                <input class="input-text" type="text" value="" placeholder="Search" />
+                            </li>
+                            <li class="dropdown__list-item">Test company 4</li>
+                            <li class="dropdown__list-item">Test company 5</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tabs-wrapper">
+                    <ul class="tabs">
+                        <li class="tabs__item">
+                            <div class="tabs__content tabs__content_active">Accounts</div>
+                        </li>
+                        <li class="tabs__item">
+                            <div class="tabs__content">Cards</div>
+                        </li>
+                        <li class="tabs__item">
+                            <div class="tabs__content">Savings</div>
+                        </li>
+                        <li class="tabs__item">
+                            <div class="tabs__content">Loans</div>
+                        </li>
+                        <li class="tabs__item">
+                            <div class="tabs__content">Trading</div>
+                        </li>
                     </ul>
                 </div>
-
-                <ul class="tabs">
-                    <li class="tabs__item tabs__item_active">Accounts</li>
-                    <li class="tabs__item">Cards</li>
-                    <li class="tabs__item">Savings</li>
-                    <li class="tabs__item">Loans</li>
-                    <li class="tabs__item">Trading</li>
-                </ul>
             </section>
 
             <section>

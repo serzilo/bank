@@ -5,7 +5,7 @@
     justify-content: space-between;
     height: 59px;
     align-items: flex-end;
-    padding-bottom: 3px;
+    margin-bottom: 15px;
 
     &__logo {
         display: block;
@@ -35,5 +35,12 @@
 
     &__toolbar {
         display: flex;
+    }
+
+    &__logo-wrapper {
+        width: 300px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
     }
 }
