@@ -22,6 +22,7 @@
         display: inline-block;
         line-height: 22px;
         text-transform: uppercase;
+        cursor: pointer;
 
         &:hover {
             color: var(--green);
@@ -70,10 +71,10 @@
             text-align: right;
             border-bottom: 1px solid #f8f8f8;
             position: relative;
-             font-size: 24px;
+            font-size: 24px;
             color: #525252;
             line-height: 36px;
-             margin-bottom: -1px;
+            margin-bottom: -1px;
         }
     }
 

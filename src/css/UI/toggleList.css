@@ -45,8 +45,9 @@
     }
 
     &__item {
-         padding: 0 14px;
+        padding: 0 14px;
         font-size: 16px;
+        cursor: pointer;
     }
 
     &__item {
@@ -69,5 +70,3 @@
         display: block;
     }
 }
-
-

@@ -27,6 +27,7 @@
         position: relative;
         box-sizing: content-box;
         margin: 0 0 0 8%;
+        cursor: pointer;
 
         .tabs__item:first-child & {
              margin-left: 4%;
