@@ -1,7 +1,5 @@
 .layout {
     margin: 0 auto;
-    /*width: 1280px;*/
-    width: 940px;
 }
 
 .layout-company {
@@ -15,6 +13,12 @@
 
 .layout-content {
     background: var(--white);
+}
+
+@media (min-width: 720px) and (max-width: 959px) {
+    .layout {
+        width: 100%;
+    }
 }
 
 @media (min-width: 960px) and (max-width: 1919px) {
