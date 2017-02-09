@@ -81,11 +81,17 @@
                     </header>
                     <div class="row">
                         <div class="col-md-4">
-                            LC11BNKO5555555555540
-                            Current account
-                            <a href="#">
-                                Account details
-                            </a>
+                            <div class="card__num">
+                                LC11BNKO5555555555540
+                            </div>
+                            <div class="card__type">
+                                Current account
+                            </div>
+                            <div class="card__details">
+                                <a href="#" class="link link_green">
+                                    Account details
+                                </a>
+                            </div>
                         </div>
                         <div class="col-md-4">
                             <div class="card__amounts">
@@ -117,8 +123,22 @@
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <button class="button button_bordered">Exchange</button>
-                            <button class="button button_bordered">View Statement</button>
+                            <div class="card__tools">
+                                <div class="card__tools-item">
+                                    <button class="button button_block button_bordered toggle-list__button">Make transfer</button>
+                                    <ul class="toggle-list">
+                                        <li class="toggle-list__label">Between own accounts</li>
+                                        <li class="toggle-list__item">To Bankinno client</li>
+                                        <li class="toggle-list__item">International SWIFT</li>
+                                    </ul>
+                                </div>
+                                <div class="card__tools-item">
+                                    <button class="button button_block button_bordered">Exchange</button>
+                                </div>
+                                <div class="card__tools-item">
+                                    <button class="button button_block button_bordered">View Statement</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="row">

@@ -32,6 +32,8 @@
      }
 
     &__amounts{
+        margin-top: -8px;
+
         &-currency {
              font-size: 18px;
              width: 38px;
@@ -40,7 +42,7 @@
              font-weight: normal;
              position: absolute;
              right: 100%;
-             bottom: 2px;
+             bottom: -3px;
          }
 
         &-badge {
@@ -58,10 +60,38 @@
             position: relative;
              font-size: 24px;
             color: #525252;
+            line-height: 36px;
         }
     }
 
+    &__num {
+        text-transform: uppercase;
+        color: #848484;
+        font-size: 16px;
+        margin-top: 2px;
+        margin-bottom: 7px;
+     }
 
+     &__type {
+        color: #c9c9c9;
+        font-size: 14px;
+          margin-bottom: 15px;
+        margin-top: -4px;
+      }
+
+      &__details {
+        font-size: 16px;
+       }
+
+    &__tools {
+        &-item {
+                margin-bottom: 5px;
+
+            & .button {
+                 text-transform: none;
+             }
+         }
+     }
 
 
 

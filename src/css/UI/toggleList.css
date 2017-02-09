@@ -1,0 +1,68 @@
+.toggle-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #545454;
+
+    &__button {
+        position: relative;
+        padding-right: 30px;
+        font-size: 16px;
+
+        &:hover {
+            &::after {
+                background: url(../../images/arrowDownWhiteSmall.png) no-repeat 0 0;
+            }
+         }
+
+        &::after {
+            content: '';
+            display: block;
+            position: absolute;
+            right: 11px;
+            top: 50%;
+            margin-top: -3px;
+            width: 9px;
+            height: 5px;
+            background: url(../../images/arrowDownGreen.png) no-repeat 0 0;
+        }
+
+        &_active {
+            background-color: var(--green);
+            color: var(--white);
+
+            &::after {
+                 background: url(../../images/arrowUpWhiteSmall.png) no-repeat 0 0 !important;
+            }
+        }
+    }
+
+    &__label {
+        line-height: 33px;
+        height: 33px;
+    }
+
+    &__label,
+    &__item {
+         padding: 0 14px;
+        font-size: 16px;
+    }
+
+    &__item {
+
+        line-height: 34px;
+        height: 34px;
+        border: 1px solid #d0d0d0;
+        border-bottom-width: 0;
+
+        &:hover {
+            background-color: var(--green);
+            color: var(--white);
+        }
+
+        &:last-child {
+            border-bottom-width: 1px;
+        }
+    }
+}
