@@ -10,6 +10,7 @@
 
     &-wrapper {
         width: 100%;
+        padding-left: 0;
     }
 
      &__item {
@@ -28,8 +29,8 @@
         box-sizing: content-box;
         margin: 0 0 0 8%;
 
-        .tabs__item:last-child & {
-             margin-right: 0;
+        .tabs__item:first-child & {
+             margin-left: 0;
          }
 
         &::before {

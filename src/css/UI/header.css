@@ -36,10 +36,10 @@
 
     &__toolbar {
         display: flex;
+         justify-content: flex-end;
     }
 
     &__logo-wrapper {
-        width: 300px;
         display: flex;
         align-items: flex-end;
         justify-content: space-between;

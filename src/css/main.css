@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "bootstrap.min.css";
 @import "common.css";
 @import "UI/layout.css";
 @import "UI/header.css";
