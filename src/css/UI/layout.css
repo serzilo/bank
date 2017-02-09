@@ -6,6 +6,7 @@
 
 .layout-company {
     flex-shrink: 0;
+    padding-right: 5px;
 }
 
 .layout-line {

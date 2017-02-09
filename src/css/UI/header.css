@@ -3,7 +3,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    height: 59px;
+    height: 58px;
     align-items: flex-end;
     margin-bottom: 15px;
 
@@ -32,6 +32,7 @@
         height: 35px;
         line-height: 35px;
         padding: 0 17px;
+        max-width: 175px;
     }
 
     &__toolbar {
@@ -43,5 +44,6 @@
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
+        padding-right: 5px;
     }
 }

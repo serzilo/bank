@@ -3,8 +3,8 @@
 .footer {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     height: 98px;
+    padding-top: 25px;
 
     &__copy {
         color: #6f6f6f;
@@ -16,6 +16,8 @@
         font-size: 24px;
         position: relative;
         padding-left: 30px;
+        margin-left: 68px;
+        margin-top: -10px;
 
         &::before {
             display: block;
@@ -25,7 +27,7 @@
             left: 0;
             position: absolute;
             top: 50%;
-            margin-top: -12px;
+            margin-top: -10px;
             background: url(../../images/phone.png) no-repeat 0 0;
         }
 
@@ -42,7 +44,7 @@
     &__line {
         display: flex;
         justify-content: space-between;
-        align-items: center;
+         margin-bottom: 4px;
     }
 
     &__bread-crumbs {

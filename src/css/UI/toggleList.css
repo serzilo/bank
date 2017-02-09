@@ -44,12 +44,6 @@
         }
     }
 
-    &__label {
-        line-height: 33px;
-        height: 33px;
-    }
-
-    &__label,
     &__item {
          padding: 0 14px;
         font-size: 16px;

@@ -36,7 +36,7 @@
         &_bordered {
             border: 2px solid var(--green);
             background-color: var(--white);
-             padding: 0 31px 0 11px;
+             padding: 0 34px 0 11px;
          }
 
         &::after {
