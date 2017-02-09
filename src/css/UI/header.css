@@ -45,5 +45,6 @@
         align-items: flex-end;
         justify-content: space-between;
         padding-right: 5px;
+        max-width: 330px;
     }
 }

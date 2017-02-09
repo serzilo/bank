@@ -94,6 +94,8 @@
        }
 
     &__tools {
+        margin-top: 2px;
+
         &-item {
             margin-bottom: 5px;
             width: 220px;

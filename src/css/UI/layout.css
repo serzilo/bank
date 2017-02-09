@@ -17,3 +17,22 @@
     background: var(--white);
 }
 
+@media (min-width: 960px) and (max-width: 1919px) {
+    .layout {
+        width: 940px;
+    }
+}
+
+@media  (min-width: 1920px) {
+    .layout {
+        width: 1280px;
+    }
+
+    .header__toolbar {
+        width: 100%;
+    }
+
+    .card__tools-item {
+        width: 271px !important;
+    }
+}

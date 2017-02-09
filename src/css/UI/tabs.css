@@ -30,7 +30,7 @@
         margin: 0 0 0 8%;
 
         .tabs__item:first-child & {
-             margin-left: 0;
+             margin-left: 4%;
          }
 
         &::before {
