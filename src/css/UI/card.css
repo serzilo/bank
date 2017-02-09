@@ -27,8 +27,14 @@
         }
     }
 
-    &__dl {
-        font-size: 24px;
+    &__subtotal {
+        font-size: 16px;
+        color: #848484;
+        margin-top: 44px;
+
+        &-dropdown {
+            margin: 0 25px 0 9px;
+        }
      }
 
     &__amounts{
@@ -75,7 +81,7 @@
      &__type {
         color: #c9c9c9;
         font-size: 14px;
-          margin-bottom: 15px;
+        margin-bottom: 15px;
         margin-top: -4px;
       }
 
@@ -85,10 +91,11 @@
 
     &__tools {
         &-item {
-                margin-bottom: 5px;
+            margin-bottom: 5px;
 
             & .button {
-                 text-transform: none;
+                text-transform: none;
+                font-size: 16px;
              }
          }
      }
