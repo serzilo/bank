@@ -38,6 +38,14 @@
     &__toolbar {
         display: flex;
          justify-content: flex-end;
+
+        &_short {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 46px;
+            display: none;
+        }
     }
 
     &__logo-wrapper {

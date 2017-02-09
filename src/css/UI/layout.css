@@ -15,15 +15,76 @@
     background: var(--white);
 }
 
-@media (min-width: 720px) and (max-width: 959px) {
-    .layout {
-        width: 100%;
+@media (max-width: 719px) {
+    .show-on-md-lg {
+        display: none;
     }
 }
 
-@media (min-width: 960px) and (max-width: 1919px) {
+@media (min-width: 720px) and (max-width: 991px) {
+    .layout {
+        width: 100%;
+    }
+
+    .header__toolbar_short {
+        display: flex !important;
+    }
+
+    .tabs-wrapper {
+        padding-top: 11px;
+        clear: both;
+    }
+
+    .card__tools-item {
+        float: none !important;
+    }
+    
+    .card__amounts-col {
+        float: right;
+    }
+
+    .card__tools {
+        margin-top: 27px !important;
+    }
+
+    .card__subtotal {
+        margin-left: -30px;
+        margin-top: 27px !important;
+    }
+
+    .card__subtotal-text {
+        display: block;
+        margin-bottom: 11px;
+    }
+
+    .show-on-md-lg {
+        display: none;
+    }
+
+    .header__toolbar {
+        width: 100%;
+    }
+
+    .card {
+        margin: 0 10px !important;
+    }
+
+    .card__amounts-col{
+        margin-right: 8.33333333%;
+    }
+
+    .card__amounts-item {
+        margin-right: 24px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1919px) {
     .layout {
         width: 940px;
+    }
+
+    .card__subtotal {
+        margin-left: -48%;
     }
 }
 
@@ -38,5 +99,9 @@
 
     .card__tools-item {
         width: 271px !important;
+    }
+
+    .card__subtotal {
+        margin-left: -10%;
     }
 }
