@@ -14,9 +14,9 @@
         font-size: 11px;
     }
 
-     &_narrow {
-          height: 28px;
-     }
+    &_narrow {
+        height: 28px;
+    }
 
     &_block {
         display: block;
@@ -37,9 +37,9 @@
     }
 
     &_green-filled {
-         color: var(--white);
-         background-color: var(--green);
-         border: 2px solid var(--green);
+        color: var(--white);
+        background-color: var(--green);
+        border: 2px solid var(--green);
 
         &:hover {
             background-color: #abd467;
@@ -56,13 +56,13 @@
             color: var(--white);
             background-color: var(--green);
         }
-     }
+    }
 
     &_transparent {
         background-color: transparent;
         border: none;
     }
-     
+
     &__counter {
         position: absolute;
         top: 2px;
@@ -85,20 +85,20 @@
 
         &:hover {
             background-color: #acd56a;
-         border-color: #acd56a;
+            border-color: #acd56a;
         }
     }
 
-     &_with-no-counter {
+    &_with-no-counter {
         color: #b3b3b3;
         border: 2px solid #b3b3b3;
         background-color: transparent;
         padding: 0 19px;
 
-          &:hover {
-              background-color: #abd467;
-              border-color: #abd467;
+        &:hover {
+            background-color: #abd467;
+            border-color: #abd467;
             color: var(--white);
-          }
-      }
+        }
+    }
 }

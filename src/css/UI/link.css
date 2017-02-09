@@ -6,7 +6,7 @@
     &:hover {
         text-decoration: none;
         color: var(--black);
-     }
+    }
 
     &_green {
         color: var(--green);

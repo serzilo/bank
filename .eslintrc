@@ -1,0 +1,17 @@
+{
+  "extends": "eslint:recommended",
+  "globals": {
+    "jQuery": true,
+    "$": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "commonjs": true
+  },
+  "rules": {
+    "indent": ["error", 4],
+    "no-multi-spaces": "error",
+    "newline-after-var": ["error", "always"]
+  }
+}

@@ -44,7 +44,7 @@
     &__line {
         display: flex;
         justify-content: space-between;
-         margin-bottom: 4px;
+        margin-bottom: 4px;
     }
 
     &__bread-crumbs {
@@ -53,12 +53,12 @@
 
         &-link {
             text-decoration: underline;
-              color: #6f6f6f;
+            color: #6f6f6f;
 
             &:hover {
                 color: #96c941;
-                    text-decoration: none;
-                }
+                text-decoration: none;
+            }
         }
     }
 }
@@ -116,7 +116,7 @@
         display: inline-block;
         margin-bottom: 7px;
     }
-    
+
     .footer__line {
         display: block;
         text-align: center;
@@ -134,8 +134,8 @@
         background-color: var(--green);
 
         &-text {
-             display: block;
-             margin: -2px 0 2px;
+            display: block;
+            margin: -2px 0 2px;
         }
 
         &-link {

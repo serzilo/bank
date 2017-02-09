@@ -14,13 +14,7 @@
             &::after {
                 background: url(../../images/arrowDownWhiteSmall.png) no-repeat 0 0;
             }
-         }
-
-        &.button_bordered_active {
-            &::after {
-
-         }
-         }
+        }
 
         &::after {
             content: '';
@@ -39,7 +33,7 @@
             color: var(--white);
 
             &::after {
-                 background: url(../../images/arrowUpWhiteSmall.png) no-repeat 0 0 !important;
+                background: url(../../images/arrowUpWhiteSmall.png) no-repeat 0 0 !important;
             }
         }
     }

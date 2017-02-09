@@ -15,7 +15,6 @@
     background: var(--white);
 }
 
-
 @media (max-width: 719px) {
     .card__header {
         padding: 17px 0 13px !important;
@@ -38,7 +37,7 @@
     }
 
     .card__subtotal {
-        margin: 21px -15px 40px !important
+        margin: 21px -15px 40px !important;
     }
 
     .header.row {
@@ -85,7 +84,7 @@
         clear: both;
         margin: 0 13px;
     }
-    
+
     .tabs__text {
         display: none;
     }
@@ -113,7 +112,7 @@
     .card__tools-item {
         float: none !important;
     }
-    
+
     .card__amounts-col {
         float: right;
     }
@@ -144,7 +143,7 @@
         margin: 0 10px !important;
     }
 
-    .card__amounts-col{
+    .card__amounts-col {
         margin-right: 8.33333333%;
     }
 
@@ -179,7 +178,7 @@
     }
 }
 
-@media  (min-width: 1920px) {
+@media (min-width: 1920px) {
     .layout {
         width: 1280px;
     }
