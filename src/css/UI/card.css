@@ -10,7 +10,7 @@
     }
 
     &__header {
-        padding: 39px 0 13px 0;
+        padding: 39px 0 13px;
     }
 
     &__title {
@@ -38,25 +38,25 @@
             margin-right: 7px;
         }
 
-         &-text {
-            margin-right: 7px
-          }
-     }
+        &-text {
+            margin-right: 7px;
+        }
+    }
 
-    &__amounts{
+    &__amounts {
         margin-top: -8px;
 
         &-currency {
-             font-size: 18px;
-             width: 38px;
-             color: #404040;
-             text-align: left;
-             font-weight: normal;
-             position: absolute;
-             left: 0;
-             bottom: -3px;
-             margin-left: -54px;
-         }
+            font-size: 18px;
+            width: 38px;
+            color: #404040;
+            text-align: left;
+            font-weight: normal;
+            position: absolute;
+            left: 0;
+            bottom: -3px;
+            margin-left: -54px;
+        }
 
         &-badge {
             color: #d3d3d3;
@@ -84,18 +84,18 @@
         font-size: 16px;
         margin-top: 3px;
         margin-bottom: 7px;
-     }
+    }
 
-     &__type {
+    &__type {
         color: #c9c9c9;
         font-size: 14px;
         margin-bottom: 15px;
         margin-top: -4px;
-      }
+    }
 
-      &__details {
+    &__details {
         font-size: 16px;
-       }
+    }
 
     &__tools {
         margin-top: 2px;
@@ -108,10 +108,7 @@
             & .button {
                 text-transform: none;
                 font-size: 16px;
-             }
-         }
-     }
-
-
-
+            }
+        }
+    }
 }

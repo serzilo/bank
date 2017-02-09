@@ -10,7 +10,7 @@
         .dropdown__selected-variant {
             color: #828282;
 
-            &:after {
+            &::after {
                 background: url(../../images/arrowUpGreen.png) no-repeat 0 0;
             }
         }
@@ -36,8 +36,8 @@
         &_bordered {
             border: 2px solid var(--green);
             background-color: var(--white);
-             padding: 0 34px 0 11px;
-         }
+            padding: 0 34px 0 11px;
+        }
 
         &::after {
             content: '';
@@ -75,7 +75,7 @@
 
             &:last-child {
                 border-bottom: 0;
-             }
+            }
 
             &:hover {
                 background-color: var(--green);
@@ -84,19 +84,18 @@
         }
     }
 
-
     &_main {
-         height: 46px;
-         background-color: var(--green);
+        height: 46px;
+        background-color: var(--green);
 
         &:hover {
             background-color: var(--green);
 
             & .dropdown__selected-variant {
-                  color: var(--white);
+                color: var(--white);
 
                 &::after {
-                     background: url(../../images/arrowUpWhite.png) no-repeat 0 0;
+                    background: url(../../images/arrowUpWhite.png) no-repeat 0 0;
                 }
             }
         }
@@ -135,7 +134,6 @@
                     background-color: var(--white) !important;
                 }
             }
-
         }
     }
 }
