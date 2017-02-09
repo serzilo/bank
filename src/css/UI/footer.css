@@ -28,7 +28,7 @@
             position: absolute;
             top: 50%;
             margin-top: -10px;
-            background: url(../../images/phone.png) no-repeat 0 0;
+            background: url(../images/phone.png) no-repeat 0 0;
         }
 
         &-prefix {

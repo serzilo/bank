@@ -6,100 +6,100 @@
     &_mail {
         width: 20px;
         height: 16px;
-        background: url(../../images/mailGreen.png) no-repeat 0 0;
+        background: url(../images/mailGreen.png) no-repeat 0 0;
 
         .button:hover & {
-            background: url(../../images/mailBlack.png) no-repeat 0 0;
+            background: url(../images/mailBlack.png) no-repeat 0 0;
         }
     }
 
     &_settings {
         width: 20px;
         height: 20px;
-        background: url(../../images/settingsGreen.png) no-repeat 0 0;
+        background: url(../images/settingsGreen.png) no-repeat 0 0;
 
         .button:hover & {
-            background: url(../../images/settingsBlack.png) no-repeat 0 0;
+            background: url(../images/settingsBlack.png) no-repeat 0 0;
         }
     }
 
     &_exit {
         width: 20px;
         height: 20px;
-        background: url(../../images/exitGreen.png) no-repeat 0 0;
+        background: url(../images/exitGreen.png) no-repeat 0 0;
 
         .button:hover & {
-            background: url(../../images/exitBlack.png) no-repeat 0 0;
+            background: url(../images/exitBlack.png) no-repeat 0 0;
         }
     }
 
     &_accounts {
         width: 24px;
         height: 20px;
-        background: url(../../images/accounts.png) no-repeat 0 0;
+        background: url(../images/accounts.png) no-repeat 0 0;
     }
 
     &_cards {
         width: 24px;
         height: 20px;
-        background: url(../../images/cards.png) no-repeat 0 0;
+        background: url(../images/cards.png) no-repeat 0 0;
 
         &.green {
-            background: url(../../images/cardsGreen.png) no-repeat 0 0;
+            background: url(../images/cardsGreen.png) no-repeat 0 0;
         }
     }
 
     &_savings {
         width: 20px;
         height: 20px;
-        background: url(../../images/savings.png) no-repeat 0 0;
+        background: url(../images/savings.png) no-repeat 0 0;
 
         &.green {
-            background: url(../../images/savingsGreen.png) no-repeat 0 0;
+            background: url(../images/savingsGreen.png) no-repeat 0 0;
         }
     }
 
     &_loans {
         width: 28px;
         height: 19px;
-        background: url(../../images/loans.png) no-repeat 0 0;
+        background: url(../images/loans.png) no-repeat 0 0;
 
         &.green {
-            background: url(../../images/loansGreen.png) no-repeat 0 0;
+            background: url(../images/loansGreen.png) no-repeat 0 0;
         }
     }
 
     &_trading {
         width: 20px;
         height: 20px;
-        background: url(../../images/trading.png) no-repeat 0 0;
+        background: url(../images/trading.png) no-repeat 0 0;
 
         &.green {
-            background: url(../../images/tradingGreen.png) no-repeat 0 0;
+            background: url(../images/tradingGreen.png) no-repeat 0 0;
         }
     }
 
     &_pay {
         width: 20px;
         height: 20px;
-        background: url(../../images/payWhite.png) no-repeat 0 0;
+        background: url(../images/payWhite.png) no-repeat 0 0;
     }
 
     &_chat {
         width: 20px;
         height: 20px;
-        background: url(../../images/chatWhite.png) no-repeat 0 0;
+        background: url(../images/chatWhite.png) no-repeat 0 0;
     }
 
     &_exchange {
         width: 20px;
         height: 20px;
-        background: url(../../images/exchangeWhite.png) no-repeat 0 0;
+        background: url(../images/exchangeWhite.png) no-repeat 0 0;
     }
 
     &_home {
         width: 20px;
         height: 20px;
-        background: url(../../images/homeWhite.png) no-repeat 0 0;
+        background: url(../images/homeWhite.png) no-repeat 0 0;
     }
 }
