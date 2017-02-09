@@ -78,4 +78,28 @@
              background: url(../../images/tradingGreen.png) no-repeat 0 0;
          }
     }
+
+    &_pay {
+        width: 20px;
+        height: 20px;
+        background: url(../../images/payWhite.png) no-repeat 0 0;
+    }
+
+    &_chat {
+        width: 20px;
+        height: 20px;
+        background: url(../../images/chatWhite.png) no-repeat 0 0;
+    }
+
+    &_exchange {
+        width: 20px;
+        height: 20px;
+        background: url(../../images/exchangeWhite.png) no-repeat 0 0;
+    }
+
+    &_home {
+        width: 20px;
+        height: 20px;
+        background: url(../../images/homeWhite.png) no-repeat 0 0;
+    }
 }

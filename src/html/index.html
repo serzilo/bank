@@ -100,6 +100,7 @@
                             </div>
                         </li>
                     </ul>
+                    <div class="tabs__help-text show-on-sm">Account</div>
                 </div>
             </section>
 
@@ -194,7 +195,7 @@
                         <h2 class="card__title">Test company</h2>
                     </header>
                     <div class="row">
-                        <div class="col-md-4 col-xs-6">
+                        <div class="col-md-4 col-xs-6 col-sm1">
                             <div class="card__num">
                                 LC11BNKO5555555555540
                             </div>
@@ -207,7 +208,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4 col-xs-5 card__amounts-col">
+                        <div class="col-md-4 col-xs-5 card__amounts-col col-sm1">
                             <div class="card__amounts">
                                 <div class="card__amounts-item">
                                     <span class="card__amounts-currency">EUR</span>
@@ -236,7 +237,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-12 col-xs-12">
+                            <div class="col-md-12 col-xs-12 col-sm1">
                                 <div class="card__subtotal">
                                     <span class="card__subtotal-text">Subtotal</span>
 
@@ -253,7 +254,7 @@
                             </div>
 
                         </div>
-                        <div class="col-md-4 col-xs-6">
+                        <div class="col-md-4 col-xs-6 col-sm1">
                             <div class="card__tools">
                                 <div class="card__tools-item">
                                     <button class="button button_block button_bordered toggle-list__button js-toggle-list">Make transfer</button>
@@ -277,27 +278,74 @@
 
             <footer class="footer">
                 <div class="footer__line">
-                    <div class="footer__copy">
+                    <div class="footer__copy hide-on-sm">
                         &copy; Bankinno, 2016
                     </div>
                     <div class="footer__phone">
                         <span class="footer__phone-prefix">+1 758</span> 000 0000
                     </div>
-                    <div class="footer__log">
+
+                    <div class="show-on-sm footer__approval-list footer__inner-wrapper">
+                        <button class="button button_with-counter button_block text-center">
+                            <span class="button__counter">5</span>
+                            Approval list
+                        </button>
+                    </div>
+
+                    <div class="show-on-sm text-center">
+                        <div class="footer_dropdown dropdown">
+                            <div class="dropdown__selected-variant">En</div>
+                            <ul class="dropdown__list">
+                                <li class="dropdown__list-item">Ru</li>
+                                <li class="dropdown__list-item">Kz</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="footer__log footer__inner-wrapper">
                         <button class="button button_narrow button_grey-filled">Activity log</button>
+                    </div>
+
+                    <div class="footer__address show-on-sm">
+                        Last login from Russian Federation: 2 days ago
+                    </div>
+
+                    <div class="footer__copy show-on-sm">
+                        &copy; Bankinno, 2016
                     </div>
                 </div>
 
                 <div class="footer__line">
                     <nav class="footer__bread-crumbs">
-                        <a href="#" class="footer__bread-crumbs-link">Price-list</a> /
-                        <a href="#" class="footer__bread-crumbs-link">Terms & Conditions</a> /
-                        <a href="#" class="footer__bread-crumbs-link">Other documents</a> /
+                        <a href="#" class="footer__bread-crumbs-link">Price-list</a> <span class="footer__bread-crumbs-separator">/</span>
+                        <a href="#" class="footer__bread-crumbs-link">Terms & Conditions</a> <span class="footer__bread-crumbs-separator">/</span>
+                        <a href="#" class="footer__bread-crumbs-link">Other documents</a> <span class="footer__bread-crumbs-separator">/</span>
                         <a href="#" class="footer__bread-crumbs-link">FAQ</a>
                     </nav>
 
-                    <div class="footer__address">
+                    <div class="footer__address hide-on-sm">
                         Last login from Russian Federation: 2 days ago
+                    </div>
+                </div>
+
+                <div class="show-on-sm">
+                    <div class="footer__menu">
+                        <a href="#" class="footer__menu-link">
+                            <i class="icon icon_home"></i>
+                            <span class="footer__menu-text">Home</span>
+                        </a>
+                        <a href="#" class="footer__menu-link">
+                            <i class="icon icon_pay"></i>
+                            <span class="footer__menu-text">Pay</span>
+                        </a>
+                        <a href="#" class="footer__menu-link">
+                            <i class="icon icon_exchange"></i>
+                            <span class="footer__menu-text">Exchange</span>
+                        </a>
+                        <a href="#" class="footer__menu-link">
+                            <i class="icon icon_chat"></i>
+                            <span class="footer__menu-text">Live chat</span>
+                        </a>
                     </div>
                 </div>
             </footer>
