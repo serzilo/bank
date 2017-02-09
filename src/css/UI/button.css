@@ -28,6 +28,7 @@
         color: var(--green);
         background-color: transparent;
 
+        &_active,
         &:hover {
             border: 2px solid var(--green);
             color: var(--white);
