@@ -15,12 +15,63 @@
     background: var(--white);
 }
 
+
 @media (max-width: 719px) {
     .show-on-md-lg {
         display: none;
     }
 
+    .col-sm1 {
+        width: 100%;
+    }
 
+    .row {
+        margin: 0 -5px;
+    }
+
+    .hide-on-sm {
+        display: none;
+    }
+
+    .header.row {
+        margin: 0 -5px 6px;
+    }
+
+    .card {
+        margin: 0 10px !important;
+        padding-bottom: 30px !important;
+    }
+
+    .card__tools-item {
+        width: 100% !important;
+    }
+
+    .card__subtotal-text {
+        display: block;
+        margin-bottom: 11px;
+    }
+
+    .footer__line {
+        flex-direction: column;
+    }
+
+    .dropdown_main {
+        z-index: 10;
+    }
+
+    .tabs-wrapper {
+        padding-top: 11px;
+        padding-left: 10px !important;
+        clear: both;
+    }
+    
+    .tabs__text {
+        display: none;
+    }
+
+    .tabs__icon {
+        display: inline-block !important;
+    }
 }
 
 @media (min-width: 720px) and (max-width: 991px) {
@@ -87,6 +138,10 @@
     .row {
         margin: 0 -5px;
     }
+
+    .show-on-sm {
+        display: none;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1919px) {
@@ -96,6 +151,10 @@
 
     .card__subtotal {
         margin-left: -48%;
+    }
+
+    .show-on-sm {
+        display: none;
     }
 }
 
@@ -114,5 +173,9 @@
 
     .card__subtotal {
         margin-left: -10%;
+    }
+
+    .show-on-sm {
+        display: none;
     }
 }

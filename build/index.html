@@ -14,7 +14,7 @@
                     </a>
                     <button class="button button_bordered show-on-md-lg">Live chat</button>
                 </div>
-                <div class="header__toolbar col-md-8">
+                <div class="header__toolbar col-md-8 col-sm1">
                     <button class="button button_with-counter show-on-md-lg">
                         <span class="button__counter">5</span>
                         Approval list
@@ -24,24 +24,28 @@
                         <i class="icon icon_mail"></i>
                     </button>
                     <div class="header__separator"></div>
-                    <div class="header__description">test representative</div>
+                    <div class="header__description hide-on-sm">test representative</div>
                     <button class="button button_transparent">
                         <i class="icon icon_settings"></i>
                     </button>
                     <div class="header__separator"></div>
-                    <div class="dropdown">
+                    <div class="dropdown hide-on-sm">
                         <div class="dropdown__selected-variant">En</div>
                         <ul class="dropdown__list">
                             <li class="dropdown__list-item">Ru</li>
                             <li class="dropdown__list-item">Kz</li>
                         </ul>
                     </div>
-                    <button class="button button_grey-filled button_small-text">Logout</button>
+                    <button class="button button_grey-filled button_small-text show-on-md-lg">Logout</button>
+
+                    <button class="button button_transparent show-on-sm">
+                        <i class="icon icon_exit"></i>
+                    </button>
                 </div>
             </header>
 
             <section class="row">
-                <div class="layout-company col-md-4 col-xs-7">
+                <div class="layout-company col-md-4 col-xs-7 col-sm1">
                     <div class="dropdown dropdown_main">
                         <div class="dropdown__selected-variant">Test company</div>
                         <ul class="dropdown__list">
@@ -66,19 +70,34 @@
                 <div class="col-md-8 tabs-wrapper">
                     <ul class="tabs">
                         <li class="tabs__item">
-                            <div class="tabs__content tabs__content_active">Accounts</div>
+                            <div class="tabs__content tabs__content_active">
+                                <div class="tabs__text">Accounts</div>
+                                <div class="tabs__icon"><i class="icon icon_accounts"></i></div>
+                            </div>
                         </li>
                         <li class="tabs__item">
-                            <div class="tabs__content">Cards</div>
+                            <div class="tabs__content">
+                                <div class="tabs__text">Cards</div>
+                                <div class="tabs__icon "><i class="icon icon_cards green"></i></div>
+                            </div>
                         </li>
                         <li class="tabs__item">
-                            <div class="tabs__content">Savings</div>
+                            <div class="tabs__content">
+                                <div class="tabs__text">Savings</div>
+                                <div class="tabs__icon"><i class="icon icon_savings green"></i></div>
+                            </div>
                         </li>
                         <li class="tabs__item">
-                            <div class="tabs__content">Loans</div>
+                            <div class="tabs__content">
+                                <div class="tabs__text">Loans</div>
+                                <div class="tabs__icon"><i class="icon icon_loans green"></i></div>
+                            </div>
                         </li>
                         <li class="tabs__item">
-                            <div class="tabs__content">Trading</div>
+                            <div class="tabs__content">
+                                <div class="tabs__text">Trading</div>
+                                <div class="tabs__icon"><i class="icon icon_trading green"></i></div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -90,7 +109,7 @@
                         <h2 class="card__title">Test company</h2>
                     </header>
                     <div class="row">
-                        <div class="col-md-4 col-xs-6">
+                        <div class="col-md-4 col-xs-6 col-sm1">
                             <div class="card__num">
                                 LC11BNKO5555555555540
                             </div>
@@ -103,7 +122,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-md-4 col-xs-5 card__amounts-col">
+                        <div class="col-md-4 col-xs-5 card__amounts-col col-sm1">
                             <div class="card__amounts">
                                 <div class="card__amounts-item">
                                     <span class="card__amounts-currency">EUR</span>
@@ -132,7 +151,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-12 col-xs-12">
+                            <div class="col-md-12 col-xs-12 col-sm1">
                                 <div class="card__subtotal">
                                     <span class="card__subtotal-text">Subtotal</span>
 
@@ -149,7 +168,7 @@
                             </div>
 
                         </div>
-                        <div class="col-md-4 col-xs-6">
+                        <div class="col-md-4 col-xs-6 col-sm1">
                             <div class="card__tools">
                                 <div class="card__tools-item">
                                     <button class="button button_block button_bordered toggle-list__button js-toggle-list">Make transfer</button>
