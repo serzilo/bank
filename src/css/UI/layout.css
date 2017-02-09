@@ -19,6 +19,8 @@
     .show-on-md-lg {
         display: none;
     }
+
+
 }
 
 @media (min-width: 720px) and (max-width: 991px) {
@@ -32,6 +34,7 @@
 
     .tabs-wrapper {
         padding-top: 11px;
+        padding-left: 10px !important;
         clear: both;
     }
 
@@ -75,6 +78,14 @@
 
     .card__amounts-item {
         margin-right: 24px;
+    }
+
+    .header.row {
+        margin: 0 -5px 6px -5px;
+    }
+
+    .row {
+        margin: 0 -5px;
     }
 }
 
