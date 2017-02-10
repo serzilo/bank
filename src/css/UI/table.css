@@ -22,7 +22,8 @@
     border-top: 0 !important;
     vertical-align: bottom !important;
     line-height: 1.44997643;
-    padding: 9px 8px;
+    padding-top: 9px !important;
+    padding-bottom: 9px !important;
 }
 
 .table th {
