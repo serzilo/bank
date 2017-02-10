@@ -96,22 +96,27 @@
 }
 
 @media (min-width: 720px) and (max-width: 991px) {
+    .card__header {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
     .layout {
         width: 100%;
     }
 
     .header__toolbar_short {
-        display: flex !important;
+        display: flex;
     }
 
     .tabs-wrapper {
         padding-top: 11px;
-        padding-left: 10px !important;
+        padding-left: 10px;
         clear: both;
     }
 
     .card__tools-item {
-        float: none !important;
+        float: none;
     }
 
     .card__amounts-col {
@@ -119,12 +124,17 @@
     }
 
     .card__tools {
-        margin-top: 27px !important;
+        margin-top: 27px;
     }
 
     .card__subtotal {
-        margin-left: -30px;
-        margin-top: 27px !important;
+        margin-left: -50px;
+        margin-top: 25px;
+    }
+
+    .card__description {
+        padding-left: 35px;
+        padding-right: 35px;
     }
 
     .card__subtotal-text {
@@ -141,11 +151,16 @@
     }
 
     .card {
-        margin: 0 10px !important;
+        margin: 0 10px;
+        padding-bottom: 30px;
     }
 
     .card__amounts-col {
         margin-right: 8.33333333%;
+    }
+
+    .footer__phone {
+        margin-left: 20px;
     }
 
     .card__amounts-item {
@@ -162,6 +177,11 @@
 
     .show-on-sm {
         display: none;
+    }
+
+    .footer {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
 

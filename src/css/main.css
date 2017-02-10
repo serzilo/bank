@@ -1,7 +1,6 @@
 @import "reset.css";
 @import "bootstrap.min.css";
 @import "common.css";
-@import "UI/layout.css";
 @import "UI/header.css";
 @import "UI/footer.css";
 @import "UI/tabs.css";
@@ -12,3 +11,4 @@
 @import "UI/card.css";
 @import "UI/link.css";
 @import "UI/toggleList.css";
+@import "UI/layout.css";
