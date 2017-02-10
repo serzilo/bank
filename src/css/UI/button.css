@@ -101,4 +101,14 @@
             color: var(--white);
         }
     }
+
+    & > .icon + &__text {
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    & > .icon,
+    &__text {
+        vertical-align: middle;
+    }
 }

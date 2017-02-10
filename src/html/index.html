@@ -118,7 +118,7 @@
                                 Current account
                             </div>
                             <div class="card__details">
-                                <a href="#" class="link link_green">
+                                <a href="#" class="link link_green js-show-popup" data-popupid="accountDetails">
                                     Account details
                                 </a>
                             </div>
@@ -202,7 +202,7 @@
                                 Current account
                             </div>
                             <div class="card__details">
-                                <a href="#" class="link link_green">
+                                <a href="#" class="link link_green js-show-popup" data-popupid="accountDetails">
                                     Account details
                                 </a>
                             </div>
@@ -301,7 +301,7 @@
                     </div>
 
                     <div class="footer__log footer__inner-wrapper">
-                        <button class="button button_narrow button_grey-filled">Activity log</button>
+                        <button class="button button_narrow button_grey-filled js-show-popup" data-popupid="activityLog">Activity log</button>
                     </div>
 
                     <div class="footer__address show-on-sm">
@@ -349,14 +349,14 @@
             </footer>
         </div>
 
-        <div class="popup">
+        <div class="popup" id="activityLog" style="display: none;">
             <div class="popup__window-wrapper">
                 <div class="popup__window-table">
                     <div class="popup__window-cell">
-                        <div class="popup__overlay"></div>
+                        <div class="popup__overlay js-hide-popup" data-popupid="activityLog"></div>
                         <div class="popup__window">
                             <div class="popup__header">
-                                Activity log
+                                <div class="popup__header-title">Activity log</div>
                             </div>
                             <div class="popup__content">
                                 <table class="table table-striped table_activity-log">
@@ -406,6 +406,46 @@
                                         <td>192.168.100.144</td>
                                     </tr>
                                 </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="popup" id="accountDetails">
+            <div class="popup__window-wrapper">
+                <div class="popup__window-table">
+                    <div class="popup__window-cell">
+                        <div class="popup__overlay js-hide-popup" data-popupid="accountDetails"></div>
+                        <div class="popup__window">
+                            <div class="popup__header">
+                                <div class="popup__header-title">Account details</div>
+                                <div class="popup__header-tools">
+                                    <button class="button button_green-filled">
+                                        <i class="icon icon_mailWhite"></i>
+                                        <span class="button__text">Send by email</span>
+                                    </button>
+                                    <button class="button button_green-filled">
+                                        <i class="icon icon_printWhite"></i>
+                                        <span class="button__text">Print</span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="popup__content">
+                                <dl class="dl-horizontal">
+                                    <dt>Account Holder</dt>
+                                    <dd>Name Surname Longer</dd>
+                                    <dt>Account Number</dt>
+                                    <dd>LC0283755628475690</dd>
+                                    <dt>Bank Name</dt>
+                                    <dd>Bankinno Inc.</dd>
+                                    <dt>Bank Address</dt>
+                                    <dd>Penthouse 1, Rodney Bay, Castries, St. Lucia</dd>
+                                    <dt>SWIFT Code</dt>
+                                    <dd>BNKINLCL1</dd>
+                                </dl>
                             </div>
                         </div>
                     </div>

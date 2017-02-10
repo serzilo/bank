@@ -102,4 +102,16 @@
         height: 20px;
         background: url(../images/homeWhite.png) no-repeat 0 0;
     }
+
+    &_mailWhite {
+        width: 18px;
+        height: 18px;
+        background: url(../images/mailWhite.png) no-repeat 0 0;
+    }
+
+    &_printWhite {
+        width: 18px;
+        height: 18px;
+        background: url(../images/printWhite.png) no-repeat 0 0;
+    }
 }

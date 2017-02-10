@@ -23,13 +23,38 @@
     }
 
     &__header {
-        font-size: 24px;
-        color: var(--black);
-        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+
+        &-title {
+            font-size: 24px;
+            color: var(--black);
+            text-transform: uppercase;
+        }
+
+        &-tools {
+            margin-right: 10px;
+        }
     }
 
     &__content {
         margin-top: 15px;
+
+        & dt {
+            font-size: 16px;
+            color: #a9a9a9;
+            font-weight: normal;
+            width: 193px;
+            text-align: left;
+            padding-left: 14px;
+        }
+
+        & dd {
+            font-size: 18px;
+            font-weight: normal;
+            margin-left: 193px;
+            margin-bottom: 18px;
+        }
     }
 
     &__window {
