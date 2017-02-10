@@ -43,6 +43,7 @@
 
     .header.row {
         margin: 0 -5px 11px;
+        height: 55px;
     }
 
     .card {
@@ -183,6 +184,10 @@
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    .header {
+        height: 51px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1919px) {
@@ -209,14 +214,20 @@
     }
 
     .card__tools-item {
-        width: 271px !important;
+        width: 271px;
     }
 
     .card__subtotal {
-        margin-left: -10%;
+        margin-left: -18%;
     }
 
     .show-on-sm {
         display: none;
+    }
+
+    .card__amounts {
+        width: 92%;
+        left: -8%;
+        position: relative;
     }
 }
