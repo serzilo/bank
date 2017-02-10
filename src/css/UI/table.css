@@ -56,3 +56,15 @@
         color: #707070;
     }
 }
+
+@media (max-width: 719px) {
+    .table_activity-log {
+        & tr > td,
+        & tr > th {
+            padding: 8px !important;
+        }
+    }
+
+
+
+}
