@@ -18,7 +18,7 @@
 
 @media (max-width: 719px) {
     .card__header {
-        padding: 17px 0 13px !important;
+        padding: 17px 0 13px;
     }
 
     .show-on-md-lg {
@@ -34,11 +34,11 @@
     }
 
     .card__amounts-item {
-        margin-right: 27px !important;
+        margin-right: 27px;
     }
 
     .card__subtotal {
-        margin: 21px -15px 40px !important;
+        margin: 21px -15px 40px;
     }
 
     .header.row {
@@ -46,8 +46,8 @@
     }
 
     .card {
-        margin: 0 10px !important;
-        padding-bottom: 30px !important;
+        margin: 0 10px;
+        padding-bottom: 33px;
     }
 
     .layout-company {
@@ -55,7 +55,7 @@
     }
 
     .card__tools-item {
-        width: 100% !important;
+        width: 100%;
     }
 
     .card__subtotal-text {
@@ -64,7 +64,7 @@
     }
 
     .card__amounts-currency {
-        margin-left: -43px !important;
+        margin-left: -36px;
     }
 
     .card__details {
@@ -81,7 +81,7 @@
 
     .tabs-wrapper {
         padding-top: 11px;
-        padding-left: 10px !important;
+        padding-left: 10px;
         clear: both;
         margin: 0 13px;
     }
@@ -91,7 +91,7 @@
     }
 
     .tabs__icon {
-        display: inline-block !important;
+        display: inline-block;
     }
 }
 
