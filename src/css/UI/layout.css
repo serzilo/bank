@@ -17,6 +17,51 @@
 }
 
 @media (max-width: 719px) {
+    .popup__header {
+        display: block;
+
+        &-title {
+            margin-left: 17px;
+        }
+    }
+
+    .popup__content dt {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .popup__content dd {
+        margin-left: 0;
+    }
+
+    .popup__window {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .popup__content .dl-horizontal {
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 32px;
+    }
+
+    .popup__header-tools {
+        margin-top: 25px;
+        margin-right: 0;
+        display: flex;
+
+        & .button {
+            width: 100%;
+            text-align: center;
+            margin-right: 10px;
+            white-space: nowrap;
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+
     .card__header {
         padding: 17px 0 13px;
     }
@@ -100,6 +145,16 @@
     .card__header {
         padding-left: 25px;
         padding-right: 25px;
+    }
+
+    .dl-horizontal dt {
+        float: left;
+        width: 160px;
+        overflow: hidden;
+        clear: left;
+        text-align: right;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .layout {
