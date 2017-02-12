@@ -8,6 +8,7 @@ var gulp = require('gulp'),
     customProperties = require("postcss-custom-properties"),
     cssnano = require('cssnano'),
     inlineBase64 = require('postcss-inline-base64'),
+    sprites = require('postcss-sprites'),
     stylelint = require('gulp-stylelint'),
     eslint = require('gulp-eslint'),
     browserify = require('browserify'),
@@ -29,6 +30,11 @@ var config = {
     host: 'localhost',
     port: 9000,
     logPrefix: "Local host"
+};
+
+var opts = {
+    stylesheetPath: './build/css/',
+    spritePath: './build/images/'
 };
 
 var path = {
@@ -92,9 +98,7 @@ gulp.task('js:build', function () {
 gulp.task('css:build', function () {
     gulp
         .src(path.src.css)
-        .pipe( postcss([ atImport, nested, customProperties, inlineBase64({
-            useCache: true
-        }), autoprefixer, cssnano ]) )
+        .pipe( postcss([ atImport, nested, customProperties, sprites(opts), autoprefixer, cssnano ]) )
         .pipe(gulp.dest(path.build.css))
         .pipe(reload({stream: true}));
 });
