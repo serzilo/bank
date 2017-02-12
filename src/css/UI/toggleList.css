@@ -12,7 +12,7 @@
 
         &:hover {
             &::after {
-                background: url(../images/arrowDownWhiteSmall.png) no-repeat 0 0;
+                 border-top-color: var(--white);
             }
         }
 
@@ -21,11 +21,12 @@
             display: block;
             position: absolute;
             right: 11px;
+            margin-top: -2px;
             top: 50%;
-            margin-top: -3px;
-            width: 9px;
-            height: 5px;
-            background: url(../images/arrowDownGreen.png) no-repeat 0 0;
+            width: 0;
+            height: 0;
+            border: 5px solid transparent;
+            border-top-color: var(--green);
         }
 
         &_active {
@@ -33,7 +34,9 @@
             color: var(--white);
 
             &::after {
-                background: url(../images/arrowUpWhiteSmall.png) no-repeat 0 0 !important;
+                 margin-top: -8px;
+                 border-bottom-color: var(--white);
+                 border-top-color: transparent !important;
             }
         }
     }
